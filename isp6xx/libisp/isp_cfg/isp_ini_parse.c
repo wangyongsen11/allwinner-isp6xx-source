@@ -61,6 +61,7 @@
 #include "SENSOR_H/imx219_mipi_1080p_a733.h"
 #include "SENSOR_H/imx415_mipi_3840_2160_a733.h"
 #include "SENSOR_H/imx415_mipi_1080p_a733.h"
+#include "SENSOR_H/imx577_mipi_1080p_a733.h"
 #elif (ISP_VERSION == 603)
 #include "SENSOR_H/gc1084_mipi_default_ini_v821.h"
 #include "SENSOR_H/gc2053_mipi_default_ini_v821.h"
@@ -988,6 +989,7 @@ struct isp_cfg_array cfg_arr[] = {
 	{"imx219", "imx219_1080p_isp_cfg", 1920, 1080, 30, 0, 0, &imx219_1080p_isp_cfg},
 	{"imx415_mipi", "imx415_mipi_1080p_isp_cfg", 1920, 1080, 30, 0, 0, &imx415_mipi_1080p_isp_cfg},
 	{"imx415_mipi", "imx415_mipi_3840_2160_isp_cfg", 3840, 2160, 30, 0, 0, &imx415_mipi_3840_2160_isp_cfg},
+	{"imx577_mipi", "imx577_mipi_1080p_isp_cfg", 1920, 1080, 30, 0, 0, &imx577_mipi_1080p_isp_cfg},
 #elif (ISP_VERSION == 603)
 	{"gc1084_mipi", "gc1084_mipi_default_ini_v821", 1280, 720, 20, 0, 0, &gc1084_mipi_gj_color_isp_cfg},
 	{"gc2053_mipi", "gc2053_mipi_default_ini_v821", 1920, 1080, 20, 0, 0, &gc2053_mipi_v821_isp_cfg},
